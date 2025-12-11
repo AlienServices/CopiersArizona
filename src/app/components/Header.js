@@ -23,17 +23,16 @@ export default function Header() {
           <div className={styles.columnContainer}>
             <div />
             <div className={styles.rowHead}>
-              <Link href={'/'}>
-                <div className={styles.titleSmallHeader}>Home</div>
-              </Link>
               <Link href={'/products'}>
-                <div className={styles.titleSmallHeader}>Our Models</div>
+                <div className={styles.titleSmallHeader}>Products</div>
               </Link>
+              <div className={styles.titleSmallHeader}>Service</div>
+              <div className={styles.titleSmallHeader}>Toner Reorder</div>
+              <div className={styles.titleSmallHeader}>Financing</div>
               <div className={styles.titleSmallHeader}>About Us</div>
             </div>
             <div className={styles.mediumColumn}>
-              <div className={styles.infoSmall}>info@copiersutah.com</div>
-              <div className={styles.infoMedium}>Ph: (801) 261-0510</div>
+              <div className={styles.infoSmall}>info@copiersarizona.com</div>
             </div>
           </div>
         </div>
