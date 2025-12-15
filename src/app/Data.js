@@ -701,25 +701,42 @@ const Home = () => {
           <Image alt={"handshake"} src={'/handshake.webp'} height={600} width={500} />
         </div>
       </div> */}
-      {/* <div className={styles.centerBoxColumn}>
-        <div style={{ padding: "20px" }} className={styles.title}>About Copiers Arizona</div>
-        <Image alt={"copiers arizona team"} style={{ borderRadius: "5px" }} src={'/team.webp'} height={450} width={350} />
-        <div className={styles.paragraphContainerMed}>
-          <div className={styles.paragraphNo}>
+<div className={styles.centerBoxColumn}>
+  <div className={styles.aboutIntro}>
+    <div className={styles.title}>About Copiers Arizona</div>
+    <Image alt={"copiers arizona team"} style={{ borderRadius: "5px" }} src={'/team.webp'} height={450} width={350} />
+    <div className={styles.aboutIntroText}>
+    At Copiers Arizona, we are dedicated to providing businesses in Arizona with reliable
+    copiers that deliver exceptional performance. That's why we have partnered exclusively 
+    with Lexmark, a trusted industry leader known for their dependable office equipment. 
+    With our strong focus on reliability, you can trust that our selection of Lexmark 
+    copiers will meet and exceed your expectations.
+    </div>
+  </div>
 
-            At Copiers Arizona, we are dedicated to providing businesses in Arizona with reliable copiers that deliver exceptional performance. That's why we have partnered exclusively with Lexmark, a trusted industry leader known for their dependable office equipment. With our strong focus on reliability, you can trust that our selection of Lexmark copiers will meet and exceed your expectations.</div>
-        </div>
-        <div className={styles.paragraphContainerMed}>
-          <div className={styles.paragraphNo}>
+  <div className={styles.aboutGrid}>
+    <div className={styles.aboutItem}>
+      <span className={styles.aboutText}>Dedicated to servicing Arizona businesses</span>
+    </div>
+    <div className={styles.aboutItem}>
+      <span className={styles.aboutText}>Full service included on the copier</span>
+    </div>
 
-            With Lexmark's renowned dependability, our copiers ensure smooth and uninterrupted operations for your business. Whether you need a compact desktop printer or a powerful multifunction device, our range of reliable Lexmark models is designed to handle your printing and copying needs with ease. You can count on our copiers to consistently deliver high-quality results, minimizing downtime and maximizing productivity in your office.</div>
-        </div>
-        <div className={styles.paragraphContainerMed}>
-          <div className={styles.paragraphNo}>
+    <div className={styles.aboutItem}>
+      <span className={styles.aboutText}>Fast online copier acquisition</span>
+    </div>
+    <div className={styles.aboutItem}>
+      <span className={styles.aboutText}>Humans always available during business hours</span>
+    </div>
 
-            Choose Copiers Arizona and Lexmark for unrivaled reliability in your office. Contact us today to explore our range of reliable copiers and discover the difference they can make in your business operations.</div>
+    <div className={styles.aboutItem}>
+      <span className={styles.aboutText}>Online lease approvals</span>
+    </div>
+    <div className={styles.aboutItem}>
+      <span className={styles.aboutText}>No hassles, no worries, everything is covered (Parts, Labor, and Toner)</span>
+    </div>
         </div>
-      </div> */}
+      </div>
       <Footer />
     </div>
   );

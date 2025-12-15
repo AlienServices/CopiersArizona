@@ -1021,6 +1021,55 @@
   justify-content: center;
   
 }
+.aboutIntro {
+  max-width: 900px;
+  text-align: center;
+  margin-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutIntroText {
+  color: rgb(85, 85, 85);
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 8px;
+  text-align: left;
+}
+
+.aboutGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr)); /* 2 columns: A–C and D–F */
+  gap: 24px 48px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.aboutCol {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.aboutItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.aboutText {
+  color: black;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Stack into one column on mobile if you want */
+@media (max-width: 750px) {
+  .aboutGrid {
+    grid-template-columns: 1fr;
+  }
+}
 .section {
   height: 600px;
   display: flex;
