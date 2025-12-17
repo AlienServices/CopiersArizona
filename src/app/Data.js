@@ -142,7 +142,7 @@ const Home = () => {
             <div className={styles.flexCenter}>
                 <div>5</div>
                 <Image
-                  src="star.webp"
+                  src="/star.webp"
                   alt="star icon"
                   width={20}
                   height={20}
@@ -165,7 +165,7 @@ const Home = () => {
             <div className={styles.flexCenter}>
                 <div>5</div>
                 <Image
-                  src="star.webp"
+                  src="/star.webp"
                   alt="star icon"
                   width={20}
                   height={20}
@@ -184,7 +184,7 @@ const Home = () => {
             <div className={styles.flexCenter}>
                 <div>5</div>
                 <Image
-                  src="star.webp"
+                  src="/star.webp"
                   alt="star icon"
                   width={20}
                   height={20}
@@ -203,7 +203,7 @@ const Home = () => {
             <div className={styles.flexCenter}>
                 <div>5</div>
                 <Image
-                  src="star.webp"
+                  src="/star.webp"
                   alt="star icon"
                   width={20}
                   height={20}
