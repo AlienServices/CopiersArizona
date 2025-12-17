@@ -55,7 +55,6 @@ const Products = () => {
 
   return (
     <div className={styles.main}>
-
       <Header/>
       <div className={styles.line}></div>
       <div>
@@ -66,114 +65,136 @@ const Products = () => {
           useRef={tawkMessengerRef}
         />
       </div>
-      <div className={styles.mainContainer}>
-        <div style={{ padding: "30px" }} className={styles.flex}>
-            <div className={styles.color}>Our Top</div>
-            <div className={styles.blue}>Products</div>
-        </div>
-        <div className={styles.copierRow}>
-          <Link href={'/6153'}>
-            <div
+      
+      {/* Phone Number - Top Right */}
+      <div className={styles.phoneTopRight}>
+        <div className={styles.phoneLabel}>Phone #</div>
+        <div className={styles.phoneNumberDisplay}>(801) 261-0510</div>
+      </div>
 
-              className={styles.copierContainer}
-            >
-              <h2 className={styles.title}>Lexmark XC 6153</h2>
-              <div className={styles.imageContainer}>
-                <Image alt={"A Lexmark Copier For Sale"} src={'/6153.webp'} fill={true} />
-              </div>
-              <button className={styles.buttonBlue}>See Details</button>
-            </div>
-          </Link>
-          <Link href={'/8163'}>
-            <div
-              style={{ padding: "12px" }}
-              className={styles.copierContainer}
+      {/* Main Products Container */}
+      <div className={styles.productsMainContainer}>
+        {/* Page Title */}
+        <div className={styles.productsTitle}>Products</div>
 
-            >
-              <h2 style={{ padding: "5px" }} className={styles.title}>Lexmark XC8163</h2>
-              <div className={styles.imageContainer}>
-                <Image alt={"A Konika Copier for Lease"} src={'/8163.webp'} fill={true} />
+        {/* Product Categories Grid with Help Section in Center */}
+        <div className={styles.productCategoriesGrid}>
+          {/* Top Row */}
+          <div className={styles.productCategoryBox}>
+            <div className={styles.productCardContent}>
+              <div className={styles.productCardTitle}>Lexmark XC8355</div>
+              <div className={styles.productCardImageWrapper}>
+                <Image alt='Lexmark XC8355' src={'/XC8355.jpg'} fill style={{ objectFit: 'contain' }} />
               </div>
-              <button className={styles.buttonBlue}>See Details</button>
-            </div>
-          </Link>
-          <Link href={'/9335'}>
-            <div
-              className={styles.copierContainer}
-
-            >
-              <h2 className={styles.title}>Lexmark XC 9335</h2>
-              <div className={styles.imageContainer}>
-                <Image alt={"A Epson Copiers for Lease  "} src={'/9225.webp'} fill={true} />
+              <div className={styles.productCardButtonContainer}>
+                <Link href={'/8355'}>
+                  <button className={styles.buttonBlue}>See Details</button>
+                </Link>
               </div>
-              <button style={{ margin: "30px" }} className={styles.buttonBlue}>See Details</button>
-            </div>
-          </Link>
-          <Link href={'/4143'}>
-            <div
-              style={{ padding: "12px" }}
-              className={styles.copierContainer}
-
-            >
-              <h2 style={{ padding: "5px" }} className={styles.title}>Lexmark XC4143</h2>
-              <div className={styles.imageContainer}>
-                <Image alt={"A Konika Copier for Lease"} src={'/4143.webp'} fill={true} />
-              </div>
-              <button className={styles.buttonBlue}>See Details</button>
-            </div>
-          </Link>
-        </div>
-        <div className={styles.copierRowThin}>
-          <Link href={'/5255'}>
-            <div
-              style={{ padding: "12px" }}
-              className={styles.copierContainer}
-
-            >
-              <h2 style={{ padding: "5px" }} className={styles.title}>Lexmark XC5255</h2>
-              <div className={styles.imageContainer}>
-                <Image alt={"A Konika Copier for Lease"} src={'/5255.webp'} fill={true} />
-              </div>
-              <button className={styles.buttonBlue}>See Details</button>
-            </div>
-          </Link>
-          
-          <Link href={'/5365'}>
-            <div
-              style={{ padding: "12px" }}
-              className={styles.copierContainer}
-
-            >
-              <h2 style={{ padding: "5px" }} className={styles.title}>Lexmark XC5365</h2>
-              <div className={styles.imageContainer}>
-                <Image alt={"A Konika Copier for Lease"} src={'/5365.webp'} fill={true} />
-              </div>
-              <button className={styles.buttonBlue}>See Details</button>
-            </div>
-          </Link>
-          <Link href={'/7335'}>
-            <div
-              className={styles.copierContainer}
-
-            >
-              <h2 className={styles.title}>Lexmark XC 7355</h2>
-              <div className={styles.imageContainer}>
-                <Image alt={"A Epson Copiers for Lease  "} src={'/7355.webp'} fill={true} />
-              </div>
-              <button style={{ margin: "30px" }} className={styles.buttonBlue}>See Details</button>
-            </div>
-          </Link>
-        </div>
-        {/* <div className={`${styles.fifty} ${styles.pic}`}>
-          <div className={styles.overlay}>
-            <div style={{ width: "90%" }}>
-              <div className={styles.titleWhite}>Why <div style={{ marginLeft: "15px", color: "rgb(1,51,93)" }} className={styles.wordBox}>Lexmark?</div><div />
-              </div>
-              <div className={styles.paragraph}>We take pride in offering only the most reliable copiers in the market, which is why we exclusively sell Konica Minolta, Lexmark, and Epson copiers. These brands have established themselves as industry leaders, renowned for their exceptional performance, durability, and advanced features. Konica Minolta copiers provide cutting-edge technology and unmatched print quality, ensuring that your documents are reproduced with precision. Lexmark copiers are known for their robust build, high-speed functionality, and extensive paper handling capabilities, making them a reliable choice for demanding office environments. Epson copiers offer outstanding color accuracy, energy efficiency, and user-friendly interfaces, making them an excellent option for businesses seeking top-notch printing solutions. Rest assured, with our selection of Konica Minolta, Lexmark, and Epson copiers, you'll have access to the most reliable and efficient printing equipment available.</div>
             </div>
           </div>
-        </div> */}
+
+          <div className={styles.productCategoryBox}>
+            <div className={styles.productCardContent}>
+              <div className={styles.productCardTitle}>Lexmark XC9655</div>
+              <div className={styles.productCardImageWrapper}>
+                <Image alt='Lexmark XC9655' src={'/9655.svg'} fill style={{ objectFit: 'contain' }} />
+              </div>
+              <div className={styles.productCardButtonContainer}>
+                <Link href={'/9655'}>
+                  <button className={styles.buttonBlue}>See Details</button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.productCategoryBox}>
+            <div className={styles.productCardContent}>
+              <div className={styles.productCardTitle}>Lexmark MX953se</div>
+              <div className={styles.productCardImageWrapper}>
+                <Image alt='Lexmark MX953se' src={'/MX953se.jpg'} fill style={{ objectFit: 'contain' }} />
+              </div>
+              <div className={styles.productCardButtonContainer}>
+                <Link href={'/953se'}>
+                  <button className={styles.buttonBlue}>See Details</button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Middle-Left */}
+          <div className={styles.productCategoryBox}>
+            <div className={styles.productCardContent}>
+              <div className={styles.productCardTitle}>Lexmark XC9525</div>
+              <div className={styles.productCardImageWrapper}>
+                <Image alt='Lexmark XC9525' src={'/9525.webp'} fill style={{ objectFit: 'contain' }} />
+              </div>
+              <div className={styles.productCardButtonContainer}>
+                <Link href={'/9525'}>
+                  <button className={styles.buttonBlue}>See Details</button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Center Help Section */}
+          <div className={styles.helpSection}>
+            <div className={styles.helpQuestionBox}>
+              <div className={styles.helpQuestion}>Which one is right for you?</div>
+            </div>
+            <div className={styles.helpText}>Let Us Help</div>
+            <Link href={'/'}>
+              <button className={styles.productSelectorButton}>Product Selector Guide</button>
+            </Link>
+          </div>
+
+          {/* Bottom-Left */}
+          <div className={styles.productCategoryBox}>
+            <div className={styles.productCardContent}>
+              <div className={styles.productCardTitle}>Lexmark XC2335</div>
+              <div className={styles.productCardImageWrapper}>
+                <Image alt='Lexmark XC2335' src={'/XC2335.png'} fill style={{ objectFit: 'contain' }} />
+              </div>
+              <div className={styles.productCardButtonContainer}>
+                <Link href={'/2335'}>
+                  <button className={styles.buttonBlue}>See Details</button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Bottom-Right */}
+          <div className={styles.productCategoryBox}>
+            <div className={styles.productCardContent}>
+              <div className={styles.productCardTitle}>Lexmark XM1342</div>
+              <div className={styles.productCardImageWrapper}>
+                <Image alt='Lexmark XM1342' src={'/XM1342.webp'} fill style={{ objectFit: 'contain' }} />
+              </div>
+              <div className={styles.productCardButtonContainer}>
+                <Link href={'/1342'}>
+                  <button className={styles.buttonBlue}>See Details</button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Middle-Right */}
+          <div className={styles.productCategoryBox}>
+            <div className={styles.productCardContent}>
+              <div className={styles.productCardTitle}>Lexmark XM3350</div>
+              <div className={styles.productCardImageWrapper}>
+                <Image alt='Lexmark XM3350' src={'/XM3350.png'} fill style={{ objectFit: 'contain' }} />
+              </div>
+              <div className={styles.productCardButtonContainer}>
+                <Link href={'/3350'}>
+                  <button className={styles.buttonBlue}>See Details</button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
       <Footer />
     </div>
   )

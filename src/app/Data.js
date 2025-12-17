@@ -113,126 +113,28 @@ const Home = () => {
       <Header />
       <div className={styles.line}></div>
       <div className={styles.flexSomething}>
-      <div className={styles.heroRow}>
       <div className={styles.mobileNone} >
-          <Image alt={"lexmark 4143"} src={`/manCartoon.png`} width={450} height={300} style={{ marginTop: "32px", marginBottom: "32px" }} />
-        </div>
-        <div className={styles.rightContent}>
-          <div className={styles.callUsBox}>Call Us</div>
-          <div className={styles.phoneNumberBox}>(801) 261-0510</div>
-          </div>
+          <Image alt={"lexmark 4143"} src={`/manCartoon.png`} width={450} height={300} />
         </div>
         <div className={styles.homeBox}>
           <div className={styles.titleBox}>
-            Select your Copier
+            Make Every Print Count
           </div>
-        </div>
-        <div className={styles.buttonHome}>
-          <button className={styles.buttonBlue}>Copier Selector Guide</button>
-        </div>
-      </div>
-      <div className={styles.reviewSection}>
-        <div className={styles.customerTitle}>
-          Trusted by Hundreds of{" "}
-          <div className={styles.blueSmall}>Happy customers</div>
-        </div>
-        <div className={styles.rowSpaced}>
-          <div className={styles.boxReview}>
-            <div className={styles.starRow}>
-            <div className={styles.flexCenter}>
-                <div>5</div>
-                <Image
-                  src="star.webp"
-                  alt="star icon"
-                  width={20}
-                  height={20}
-                />
-              </div>
-              <div className={styles.titleSmall2}>
-                Jennifer R.
-              </div>
-              <div className={styles.titleSmall2}>
-                Phoenix, AZ
-              </div>
-            </div>
-            <div className={styles.paragraphReview}>
-            “Great company! Friendly staff got our office a perfect, new
-            Lexmark copier installed in just 2 days."
-            </div>
+          <div className={styles.paragraphBox}>
+            Introducing the top quality copiers with full warranties all toner included for the life of your lease
           </div>
-          <div className={`${styles.boxReview} ${styles.hideBox}`}>
-            <div className={styles.starRow}>
-            <div className={styles.flexCenter}>
-                <div>5</div>
-                <Image
-                  src="star.webp"
-                  alt="star icon"
-                  width={20}
-                  height={20}
-                />
-              </div>
-              <div className={styles.titleSmall2}>Mike T.</div>
-              <div className={styles.titleSmall2}>Tucson, AZ</div>
-            </div>
-            <div className={styles.paragraphReview}>
-            "Super fast service! Copiers Arizona had a tech here same-day and fixed
-            our printer in under an hour."
-            </div>
-          </div>
-          <div className={styles.boxReview}>
-            <div className={styles.starRow}>
-            <div className={styles.flexCenter}>
-                <div>5</div>
-                <Image
-                  src="star.webp"
-                  alt="star icon"
-                  width={20}
-                  height={20}
-                />
-              </div>
-              <div className={styles.titleSmall2}>Sarah K.</div>
-              <div className={styles.titleSmall2}>Mesa, AZ</div>
-            </div>
-            <div className={styles.paragraphReview}>
-            "Love working with Copiers Arizona. Fair prices, reliable machines, and they
-            always answer the phone."
-            </div>
-          </div>
-          <div className={styles.boxReview}>
-            <div className={styles.starRow}>
-            <div className={styles.flexCenter}>
-                <div>5</div>
-                <Image
-                  src="star.webp"
-                  alt="star icon"
-                  width={20}
-                  height={20}
-                />
-              </div>
-              <div className={styles.titleSmall2}>Amanda L.</div>
-              <div className={styles.titleSmall2}>Tempe, AZ</div>
-            </div>
-            <div className={styles.paragraphReview}>
-            "Honest, local, and fast. They saved us from a bad contract and set us up with a 
-            great copier in just a few days."
-            </div>
-          </div>
+          <button className={styles.buttonBlue}>Lease Today</button>
         </div>
       </div>
-      <div className={styles.buttonCenter}>
-          <Link
-            href={
-              "https://www.google.com/maps/place/Copiers+for+Less/@40.599545,-111.9091041,17z/data=!4m8!3m7!1s0x87528bb3da9348f5:0x52af9011e571a1bf!8m2!3d40.599545!4d-111.9065292!9m1!1b1!16s%2Fg%2F1hc90lr04?entry=ttu"
-            }
-            target={"_blank"}
-          >
-            <button className={styles.buttonBlue2}>
-              See All Google Reviews
-            </button>
-          </Link>
+      <div className={styles.homeBox}>
+        <div className={styles.titleBox}>
+          Select your Copier
+        </div>
       </div>
-      
-      {/* <div className={styles.sectionNormal}>
+      <div className={styles.buttonHome}>
+        <button className={styles.buttonBlue}>Copier Selector Guide</button>
+      </div>
+      <div className={styles.sectionNormal}>
         <div className={styles.copierContainer}>
           <h1 className={styles.bigTitle}>Lexmark XC 6153</h1>
 
@@ -351,7 +253,7 @@ const Home = () => {
         <div style={{ padding: "8px" }} className={styles.sentence}>
           Take Our Quiz And See Our Reccomended Copiers For You
         </div>
-        <div> Check which options you wanna see!</div>
+        {/* <div> Check which options you wanna see!</div> */}
         <div className={styles.rowButton}>
           <div className={styles.rowNormal}>
             <div className={styles.flexLarge}>
@@ -490,7 +392,7 @@ const Home = () => {
             }
 
             setCopierChoice(result)
-            console.log(JSON.stringify(result), "this is important info")
+            // console.log(JSON.stringify(result), "this is important info")
             JSON.stringify(localStorage.setItem("copierChoice", JSON.stringify(result)))
           }}>Get Result</button>
         </div>
@@ -584,7 +486,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className={styles.boxContainer}>
+            {/* <div className={styles.boxContainer}>
               <div className={styles.box}>
                 <div className={styles.titleMed}>
                   Our Favorite  And White Option
@@ -599,7 +501,7 @@ const Home = () => {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -627,9 +529,9 @@ const Home = () => {
                 name=""
                 id=""
                 required={true}
-              onChange={() => {
-                setName(event.target.value);
-              }}
+              // onChange={() => {
+              //   setName(event.target.value);
+              // }}
               />
               <input
                 style={{ outline: "none", backgroundColor: "transparent", border: "1px solid rgb(210,210,210)", borderRadius: "5px", padding: "15px", width: "90%", margin: "5px" }}
@@ -639,9 +541,9 @@ const Home = () => {
                 name=""
                 id=""
                 required={true}
-              onChange={() => {
-                setEmail(event.target.value);
-              }}
+              // onChange={() => {
+              //   setEmail(event.target.value);
+              // }}
               />
             </div>
             <div className={styles.space}>
@@ -688,11 +590,11 @@ const Home = () => {
           </div>
           <button
             onClick={(e) => {
-              setQuoteToggle(!quoteToggle);
-              sendEmail(e);
+              // setQuoteToggle(!quoteToggle);
+              // sendEmail(e);
             }}
             className={styles.buttonBlue}
-          disabled={!toggle}
+          // disabled={!toggle}
           >
             Get My Quote
           </button>
@@ -700,41 +602,24 @@ const Home = () => {
         <div className={styles.mobileNone}>
           <Image alt={"handshake"} src={'/handshake.webp'} height={600} width={500} />
         </div>
-      </div> */}
-<div className={styles.centerBoxColumn}>
-  <div className={styles.aboutIntro}>
-    <div className={styles.title}>About Copiers Arizona</div>
-    <Image alt={"copiers arizona team"} style={{ borderRadius: "5px" }} src={'/team.webp'} height={450} width={350} />
-    <div className={styles.aboutIntroText}>
-    At Copiers Arizona, we are dedicated to providing businesses in Arizona with reliable
-    copiers that deliver exceptional performance. That's why we have partnered exclusively 
-    with Lexmark, a trusted industry leader known for their dependable office equipment. 
-    With our strong focus on reliability, you can trust that our selection of Lexmark 
-    copiers will meet and exceed your expectations.
-    </div>
-  </div>
+      </div>
+      <div className={styles.centerBoxColumn}>
+        <div style={{ padding: "20px" }} className={styles.title}>About Copiers Arizona</div>
+        <Image alt={"copiers arizona team"} style={{ borderRadius: "5px" }} src={'/team.webp'} height={450} width={350} />
+        <div className={styles.paragraphContainerMed}>
+          <div className={styles.paragraphNo}>
 
-  <div className={styles.aboutGrid}>
-    <div className={styles.aboutItem}>
-      <span className={styles.aboutText}>Dedicated to servicing Arizona businesses</span>
-    </div>
-    <div className={styles.aboutItem}>
-      <span className={styles.aboutText}>Full service included on the copier</span>
-    </div>
+            At Copiers Arizona, we are dedicated to providing businesses in Arizona with reliable copiers that deliver exceptional performance. That's why we have partnered exclusively with Lexmark, a trusted industry leader known for their dependable office equipment. With our strong focus on reliability, you can trust that our selection of Lexmark copiers will meet and exceed your expectations.</div>
+        </div>
+        <div className={styles.paragraphContainerMed}>
+          <div className={styles.paragraphNo}>
 
-    <div className={styles.aboutItem}>
-      <span className={styles.aboutText}>Fast online copier acquisition</span>
-    </div>
-    <div className={styles.aboutItem}>
-      <span className={styles.aboutText}>Humans always available during business hours</span>
-    </div>
+            With Lexmark's renowned dependability, our copiers ensure smooth and uninterrupted operations for your business. Whether you need a compact desktop printer or a powerful multifunction device, our range of reliable Lexmark models is designed to handle your printing and copying needs with ease. You can count on our copiers to consistently deliver high-quality results, minimizing downtime and maximizing productivity in your office.</div>
+        </div>
+        <div className={styles.paragraphContainerMed}>
+          <div className={styles.paragraphNo}>
 
-    <div className={styles.aboutItem}>
-      <span className={styles.aboutText}>Online lease approvals</span>
-    </div>
-    <div className={styles.aboutItem}>
-      <span className={styles.aboutText}>No hassles, no worries, everything is covered (Parts, Labor, and Toner)</span>
-    </div>
+            Choose Copiers Arizona and Lexmark for unrivaled reliability in your office. Contact us today to explore our range of reliable copiers and discover the difference they can make in your business operations.</div>
         </div>
       </div>
       <Footer />
