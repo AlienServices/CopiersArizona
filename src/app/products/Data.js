@@ -110,12 +110,12 @@ const Products = () => {
 
           <div className={styles.productCategoryBox}>
             <div className={styles.productCardContent}>
-              <div className={styles.productCardTitle}>Lexmark MX953se</div>
+              <div className={styles.productCardTitle}>Lexmark XM3142</div>
               <div className={styles.productCardImageWrapper}>
-                <Image alt='Lexmark MX953se' src={'/MX953se.jpg'} fill style={{ objectFit: 'contain' }} />
+                <Image alt='Lexmark XM3142' src={'/XM3142.png'} fill style={{ objectFit: 'contain' }} />
               </div>
               <div className={styles.productCardButtonContainer}>
-                <Link href={'/953se'}>
+                <Link href={'/3142'}>
                   <button className={styles.buttonBlue}>See Details</button>
                 </Link>
               </div>
@@ -151,12 +151,12 @@ const Products = () => {
           {/* Bottom-Left */}
           <div className={styles.productCategoryBox}>
             <div className={styles.productCardContent}>
-              <div className={styles.productCardTitle}>Lexmark XC2335</div>
+              <div className={styles.productCardTitle}>Lexmark XC4352</div>
               <div className={styles.productCardImageWrapper}>
-                <Image alt='Lexmark XC2335' src={'/XC2335.png'} fill style={{ objectFit: 'contain' }} />
+                <Image alt='Lexmark XC4352' src={'/XC4352.jpg'} fill style={{ objectFit: 'contain' }} />
               </div>
               <div className={styles.productCardButtonContainer}>
-                <Link href={'/2335'}>
+                <Link href={'/4352'}>
                   <button className={styles.buttonBlue}>See Details</button>
                 </Link>
               </div>
