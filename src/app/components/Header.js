@@ -26,7 +26,9 @@ export default function Header() {
               <Link href={'/products'}>
                 <div className={styles.titleSmallHeader}>Products</div>
               </Link>
-              <div className={styles.titleSmallHeader}>Service</div>
+              <Link href={'/service'}>
+                <div className={styles.titleSmallHeader}>Service</div>
+              </Link>
               <div className={styles.titleSmallHeader}>Toner Reorder</div>
               <div className={styles.titleSmallHeader}>Financing</div>
               <div className={styles.titleSmallHeader}>About Us</div>
