@@ -93,14 +93,17 @@ const Products = () => {
                     onClick={() => {
                       localStorage.setItem('Model', 'Lexmark XC8355')
                       localStorage.setItem('Image', 'XC8355.jpg')
-                      localStorage.setItem('timeOut', '7')
+                      localStorage.setItem('timeOut', '7.1')
                       localStorage.setItem('type', 'lexmark')
-                      localStorage.setItem('PagesPerMinute', '35')
+                      localStorage.setItem('PagesPerMinute', '55')
                       localStorage.setItem('modelNumber', 'XC8355')
                       localStorage.setItem('paperSize', '8.5 x 14')
-                      localStorage.setItem('description', 'The Lexmark XC8355 is a reliable multifunction printer designed for small to medium-sized offices. It offers excellent print quality and efficient performance.')
+                      localStorage.setItem('description', 'With the new XC8355 color A4 multifunction printer, you get '
+                        + 'reassuring versatility, exceptional sustainability, and surprising simplicity from such '
+                        + 'sophisticated technology. Boost your productivity with vivid prints — up to 55 pages per '
+                        + 'minute*. Intuitively navigate the 10-inch color touchscreen, and save time with single-pass two-sided scanning.')
                       localStorage.setItem('brand', 'lexmark')
-                      localStorage.setItem('ScanSpeed', '35')
+                      localStorage.setItem('ScanSpeed', '300')
                     }}
                   >
                     See Details
@@ -123,14 +126,17 @@ const Products = () => {
                     onClick={() => {
                       localStorage.setItem('Model', 'Lexmark XC9655')
                       localStorage.setItem('Image', '9655.svg')
-                      localStorage.setItem('timeOut', '6')
+                      localStorage.setItem('timeOut', '7.1')
                       localStorage.setItem('type', 'lexmark')
-                      localStorage.setItem('PagesPerMinute', '65')
+                      localStorage.setItem('PagesPerMinute', '55')
                       localStorage.setItem('modelNumber', 'XC9655')
-                      localStorage.setItem('paperSize', '11 x 17')
-                      localStorage.setItem('description', 'The Lexmark XC9655 is a high-performance multifunction printer perfect for larger offices. It delivers fast printing speeds and handles large paper sizes with ease.')
+                      localStorage.setItem('paperSize', '12 x 18')
+                      localStorage.setItem('description', 'With the new XC9655 color A3 multifunction printer, you get '
+                        + 'reassuring versatility, exceptional sustainability, and surprising simplicity from such '
+                        + 'sophisticated technology. Boost your productivity with vivid prints — up to 55 pages per '
+                        + 'minute*. Intuitively navigate the 10-inch color touchscreen, and save time with single-pass two-sided scanning.')
                       localStorage.setItem('brand', 'lexmark')
-                      localStorage.setItem('ScanSpeed', '65')
+                      localStorage.setItem('ScanSpeed', '300')
                     }}
                   >
                     See Details
@@ -153,14 +159,16 @@ const Products = () => {
                     onClick={() => {
                       localStorage.setItem('Model', 'Lexmark XM3142')
                       localStorage.setItem('Image', 'XM3142.png')
-                      localStorage.setItem('timeOut', '7')
+                      localStorage.setItem('timeOut', '5.9')
                       localStorage.setItem('type', 'lexmark')
                       localStorage.setItem('PagesPerMinute', '42')
                       localStorage.setItem('modelNumber', 'XM3142')
                       localStorage.setItem('paperSize', '8.5 x 14')
-                      localStorage.setItem('description', 'The Lexmark XM3142 is a versatile multifunction printer that combines reliability with advanced features. Ideal for busy office environments.')
+                      localStorage.setItem('description', 'Lexmark XM3142 brings scalable solution support and '
+                        + 'enterprise-level security to small workgroups at up to 42 pages per minute*. Compact '
+                        + 'size with Trusted Platform Module (TPM) standard** for enhanced security.')
                       localStorage.setItem('brand', 'lexmark')
-                      localStorage.setItem('ScanSpeed', '42')
+                      localStorage.setItem('ScanSpeed', '96')
                     }}
                   >
                     See Details
@@ -184,14 +192,17 @@ const Products = () => {
                     onClick={() => {
                       localStorage.setItem('Model', 'Lexmark XC9525')
                       localStorage.setItem('Image', '9525.webp')
-                      localStorage.setItem('timeOut', '6')
+                      localStorage.setItem('timeOut', '7.1')
                       localStorage.setItem('type', 'lexmark')
-                      localStorage.setItem('PagesPerMinute', '52')
+                      localStorage.setItem('PagesPerMinute', '25')
                       localStorage.setItem('modelNumber', 'XC9525')
-                      localStorage.setItem('paperSize', '11 x 17')
-                      localStorage.setItem('description', 'The Lexmark XC9525 offers exceptional performance for medium to large offices. It provides fast printing and scanning capabilities with excellent reliability.')
+                      localStorage.setItem('paperSize', '12 x 18')
+                      localStorage.setItem('description', 'With the new XC9525 color A3 multifunction printer, you get '
+                        + 'reassuring versatility, exceptional sustainability, and surprising simplicity from such '
+                        + 'sophisticated technology. Boost your productivity with vivid prints — up to 25 pages per '
+                        + 'minute*. Intuitively navigate the 10-inch color touchscreen, and save time with single-pass two-sided scanning.')
                       localStorage.setItem('brand', 'lexmark')
-                      localStorage.setItem('ScanSpeed', '52')
+                      localStorage.setItem('ScanSpeed', '200')
                     }}
                   >
                     See Details
@@ -226,14 +237,15 @@ const Products = () => {
                     onClick={() => {
                       localStorage.setItem('Model', 'Lexmark XC4352')
                       localStorage.setItem('Image', 'XC4352.jpg')
-                      localStorage.setItem('timeOut', '7')
+                      localStorage.setItem('timeOut', '5.6')
                       localStorage.setItem('type', 'lexmark')
                       localStorage.setItem('PagesPerMinute', '52')
                       localStorage.setItem('modelNumber', 'XC4352')
                       localStorage.setItem('paperSize', '8.5 x 14')
-                      localStorage.setItem('description', 'The Lexmark XC4352 is a dependable multifunction printer designed for consistent performance. Perfect for offices that need reliable printing solutions.')
+                      localStorage.setItem('description', 'The Lexmark XC4352 is designed for performance, security, '
+                        + 'and ease of use for mid-to-large workgroups at speeds up to 52 pages per minute*.')
                       localStorage.setItem('brand', 'lexmark')
-                      localStorage.setItem('ScanSpeed', '52')
+                      localStorage.setItem('ScanSpeed', '104')
                     }}
                   >
                     See Details
@@ -257,14 +269,16 @@ const Products = () => {
                     onClick={() => {
                       localStorage.setItem('Model', 'Lexmark XM1342')
                       localStorage.setItem('Image', 'XM1342.webp')
-                      localStorage.setItem('timeOut', '7')
+                      localStorage.setItem('timeOut', '5.9')
                       localStorage.setItem('type', 'lexmark')
-                      localStorage.setItem('PagesPerMinute', '34')
+                      localStorage.setItem('PagesPerMinute', '42')
                       localStorage.setItem('modelNumber', 'XM1342')
                       localStorage.setItem('paperSize', '8.5 x 14')
-                      localStorage.setItem('description', 'The Lexmark XM1342 is a compact and efficient multifunction printer. It offers reliable performance in a space-saving design.')
+                      localStorage.setItem('description', 'Get output up to 42 pages per minute*, plus double-side ' 
+                        + 'automatic scanning, copying, faxing, touch-screen convenience and Wi-Fi, all in the compact ' 
+                        + 'Lexmark XM1342.')
                       localStorage.setItem('brand', 'lexmark')
-                      localStorage.setItem('ScanSpeed', '34')
+                      localStorage.setItem('ScanSpeed', '96')
                     }}
                   >
                     See Details
@@ -288,14 +302,17 @@ const Products = () => {
                     onClick={() => {
                       localStorage.setItem('Model', 'Lexmark XM3350')
                       localStorage.setItem('Image', 'XM3350.png')
-                      localStorage.setItem('timeOut', '7')
+                      localStorage.setItem('timeOut', '6')
                       localStorage.setItem('type', 'lexmark')
-                      localStorage.setItem('PagesPerMinute', '35')
+                      localStorage.setItem('PagesPerMinute', '50')
                       localStorage.setItem('modelNumber', 'XM3350')
                       localStorage.setItem('paperSize', '8.5 x 14')
-                      localStorage.setItem('description', 'The Lexmark XM3350 is a reliable desktop printer that delivers consistent performance. Ideal for small offices and workgroups.')
+                      localStorage.setItem('description', 'With exceptional performance and secure design XM3350 ' 
+                        + 'multi-function printer (copy/scan/print/fax) delivers enhanced productivity, up to 50 ' 
+                        + 'pages per minute* and a toner yield up to 31,000 pages**. Fast time to first print, '
+                        + 'superior print quality and easy-to-use touch screen.')
                       localStorage.setItem('brand', 'lexmark')
-                      localStorage.setItem('ScanSpeed', '35')
+                      localStorage.setItem('ScanSpeed', '104')
                     }}
                   >
                     See Details

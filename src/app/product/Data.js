@@ -100,105 +100,67 @@ const Product = () => {
       <Header />
       <BreadCrumbs breadCrumbs={breadCrumbs} />
       <div className={styles.productContainer}>
-        <div className={styles.row}>
-          <div className={styles.copierContainer}>
-            {defaultImage && <Image src={`/${defaultImage}`} width={200} height={150} alt={'a copier'} />}
-            <div
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-              }}
-            >
-              <div style={{ padding: '5px', fontWeight: "500" }} className={styles.title}>
-                Model:
-              </div>
-              <div style={{ fontSize: "15px" }} className={styles.title}>{modelNumber}</div>
+        <div className={styles.productMainSection}>
+          <div className={styles.productImageSection}>
+            <div className={styles.imageWrapper}>
+              {defaultImage && <Image src={`/${defaultImage}`} width={400} height={300} alt={model || 'a copier'} className={styles.productImage} />}
+            </div>
+            <div className={styles.modelText}>
+              Model: {modelNumber}
             </div>
           </div>
 
-          <div className={styles.column}>
-            <div>
-              <div>
-                <div style={{ color: "black", fontSize: "18px", paddingLeft: "10px" }}>About</div>
-                <div className={styles.bulletContainer}>
-                  <div>   <Image
-                    src="/seen.webp"
-                    width={25}
-                    height={25}
-                    alt={"a seen"}
-                  /></div>
-                  <div className={styles.paragraphSmall}>
+          <div className={styles.productInfoSection}>
+            <div className={styles.productTitle}>{model}</div>
+            <div className={styles.aboutSection}>
+              <h2 className={styles.aboutHeading}>About</h2>
+              <div className={styles.featuresList}>
+                <div className={styles.featureItem}>
+                  <span className={styles.checkmark}>✓</span>
+                  <span className={styles.featureText}>
                     Print speeds at {printSpeed} pages per minute!
-                  </div>
+                  </span>
                 </div>
-                <div className={styles.bulletContainer}>
-                  <div>   <Image
-                    src="/seen.webp"
-                    width={25}
-                    height={25}
-                    alt={"a seen"}
-                  /></div>
-                  <div className={styles.paragraphSmall}>
+                <div className={styles.featureItem}>
+                  <span className={styles.checkmark}>✓</span>
+                  <span className={styles.featureText}>
                     Largest print size is {paperSize} inches
-                  </div>
+                  </span>
                 </div>
-                <div className={styles.bulletContainer}>
-                  <div>   <Image
-                    src="/seen.webp"
-                    width={25}
-                    height={25}
-                    alt={"a seen"}
-                  /></div>
-                  <div className={styles.paragraphSmall}>
+                <div className={styles.featureItem}>
+                  <span className={styles.checkmark}>✓</span>
+                  <span className={styles.featureText}>
                     First page out time is {timeOut} seconds
-                  </div>
+                  </span>
                 </div>
-                <div className={styles.bulletContainer}>
-                  <div>   <Image
-                    src="/seen.webp"
-                    width={25}
-                    height={25}
-                    alt={"a seen"}
-                  /></div>
-                  <div className={styles.paragraphSmall}>
-                    Scans are {scanSpeed} on the Duplex scanner
-                  </div>
+                <div className={styles.featureItem}>
+                  <span className={styles.checkmark}>✓</span>
+                  <span className={styles.featureText}>
+                    Scans are {scanSpeed} sides per minute on the Duplex scanner
+                  </span>
                 </div>
-                <div className={styles.bulletContainer}>
-                  <div>   <Image
-                    src="/seen.webp"
-                    width={25}
-                    height={25}
-                    alt={"a seen"}
-                  /></div>
-                  <div className={styles.paragraphSmall}>
+                <div className={styles.featureItem}>
+                  <span className={styles.checkmark}>✓</span>
+                  <span className={styles.featureText}>
                     {lastBullet}
-                  </div>
+                  </span>
                 </div>
-                <div className={styles.bulletContainer}>
-                  <div>   <Image
-                    src="/seen.webp"
-                    width={25}
-                    height={25}
-                    alt={"a seen"}
-                  /></div>
-                  <div className={styles.paragraphSmall}>
+                <div className={styles.featureItem}>
+                  <span className={styles.checkmark}>✓</span>
+                  <span className={styles.featureText}>
                     {almostLastBullet}
-                  </div>
+                  </span>
                 </div>
-                <Link href={'/buy'}>
-                  <button style={{ margin: "15px" }} className={styles.button}>Get A Quote</button>
-                </Link>
               </div>
+              <Link href={'/buy'}>
+                <button className={styles.quoteButton}>Get A Quote</button>
+              </Link>
             </div>
           </div>
         </div>
-        <div style={{ height: '40%' }} className={styles.konikaBottom}>
-          <div className={styles.bottomProductContainer}>
-            <div className={styles.paragraph}>{brandDescription}</div>
-            <div className={styles.paragraph}>{description}</div>
-          </div>
+        <div className={styles.productDescriptionSection}>
+          <div className={styles.descriptionParagraph}>{brandDescription}</div>
+          <div className={styles.descriptionParagraph}>{description}</div>
         </div>
       </div>
       <Footer />
